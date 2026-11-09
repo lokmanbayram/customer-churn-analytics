@@ -6,9 +6,9 @@ An end-to-end analytics project evaluating subscription retention drivers, custo
 
 ## Executive BI Dashboard Overview
 
-![Executive BI Dashboard - KPIs & Cohorts](data/powerbi_churn_executive_dashboard1.png)
+![Executive BI Dashboard - KPIs & Cohorts](powerbi_churn_executive_dashboard1.png)
 
-![Executive BI Dashboard - Service Matrix & Billing Risk](data/powerbi_churn_executive_dashboard2.png)
+![Executive BI Dashboard - Service Matrix & Billing Risk](powerbi_churn_executive_dashboard2.png)
 
 ---
 
@@ -32,15 +32,14 @@ Customer attrition poses a direct threat to Monthly Recurring Revenue (MRR) in s
 
 ```text
 customer-churn-analytics/
-├── data/
-│   ├── powerbi_churn_executive_dashboard1.png  # Executive KPIs & Cohort BI View
-│   ├── powerbi_churn_executive_dashboard2.png  # Service Matrix & Payment BI View
-│   └── churn_analysis_dashboard.png            # Python statistical EDA output
 ├── notebooks/
 │   └── exploratory_data_analysis.ipynb         # End-to-end data pipeline & visual EDA
 ├── sql/
 │   ├── 01_schema_setup.sql                     # Raw staging DDL
 │   └── 02_analytical_queries.sql               # Business marts, aggregations, & cohorts
+├── powerbi_churn_executive_dashboard1.png      # Executive KPIs & Cohort BI View
+├── powerbi_churn_executive_dashboard2.png      # Service Matrix & Payment BI View
+├── churn_analysis_dashboard.png                # Python statistical EDA output
 ├── .gitignore
 ├── README.md
 └── requirements.txt
@@ -50,7 +49,7 @@ customer-churn-analytics/
 
 ## Key Business Insights & Python Statistical EDA
 
-![Python Statistical Churn EDA](data/churn_analysis_dashboard.png)
+![Python Statistical Churn EDA](churn_analysis_dashboard.png)
 
 ### 1. Executive Summary & Revenue Exposure
 * **Overall Attrition:** The aggregate customer churn rate stands at **26.54%** (1,869 / 7,043 customers).
